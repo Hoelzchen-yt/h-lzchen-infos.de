@@ -1,0 +1,123 @@
+/* Basisstyles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #0077b6;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #023e8a;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav ul li a:hover {
+    background-color: #0096c7;
+    border-radius: 5px;
+}
+
+/* Hauptinhalt */
+main {
+    padding: 2rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+}
+
+.project {
+    background-color: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+footer {
+    background-color: #023e8a;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@font-face {
+    font-family: 'Burbank Big Black';
+    src: url('BurbankBigBlack.ttf') format('truetype');
+}
+
+body {
+    font-family: 'Burbank Big Black', sans-serif;
+}
+
+/* Styles für den "Über mich"-Bereich */
+#about {
+    padding: 2rem;
+    background-color: #f0f0f0; /* Hellgrauer Hintergrund */
+    color: #333;
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 2rem;
+    color: #0077b6; /* Hauptfarbe für die Überschrift */
+    margin-bottom: 1rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+}
+
+/* Liste von Fähigkeiten */
+#about ul {
+    list-style: none;
+    padding: 0;
+}
+
+#about ul li {
+    font-size: 1rem;
+    color: #333;
+    margin: 0.5rem 0;
+}
